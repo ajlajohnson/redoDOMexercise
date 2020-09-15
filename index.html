@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Exercises</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="buttoncontainer">
+      <button data-amount="2" class="button">Lime Cola $2.00</button>
+      <button data-amount="3" class="button">Salted Peanuts $3.00</button>
+      <button data-amount="4" class="button">Chocolate Bar $4.00</button>
+      <button data-amount="6" class="button">Fruit Gummies $6.00</button>
+      <p class="total"></p>
+    </div>
+
+    <form class="questions">
+      <ul>
+        <label for="coincount" class="count">How many?</label>
+
+        <input type="number" id="coincount" name="coincount" class="count" />
+
+        <select name="type" id="coin" class="cointype">
+          <option value="volvo">Quarter</option>
+
+          <option value="saab">Dime</option>
+
+          <option value="mercedes">Nickel</option>
+
+          <option value="audi">Penny</option>
+        </select>
+      </ul>
+
+      <button class="makemoney">Make Money!</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
